@@ -1,0 +1,13 @@
+def shopping_bill(*prices):
+    total = 0
+
+    print("Items purchased:")
+
+    for price in prices:
+        print("₹", price)
+        total = total + price
+
+    print("Total Bill: ₹", total)
+
+
+shopping_bill(120, 250, 80, 150, 300)
